@@ -135,7 +135,7 @@ export default function Plans() {
                   </ListItem>
                   <ListItem>
                     <ListIcon as={FaCheckCircle} color='green.500' />
-                    More text for you to see it's good.
+                    More text for you to see its good.
                   </ListItem>
                   <ListItem>
                     <ListIcon as={FaCheckCircle} color='green.500' />
