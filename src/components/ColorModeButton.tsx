@@ -4,14 +4,14 @@ import {
   Icon,
   useColorModeValue,
   BoxProps,
+  useColorMode,
 } from '@chakra-ui/react'
 import { IoMdMoon } from 'react-icons/io'
 import { FiSun } from 'react-icons/fi'
 
-import { useColors } from '~contexts/ColorsContext'
-
 const ColorModeButton = (props: BoxProps) => {
-  const { toggleColorMode } = useColors()
+  const { toggleColorMode } = useColorMode()
+
   return (
     <Box {...props}>
       <Button onClick={toggleColorMode} p={0}>
