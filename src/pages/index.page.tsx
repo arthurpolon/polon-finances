@@ -9,7 +9,6 @@ import {
   Image,
   Icon,
   useColorModeValue,
-  useColorMode,
   SimpleGrid,
   VStack,
   IconProps,
